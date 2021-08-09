@@ -6,9 +6,9 @@ package lab6Ex2;
 // Find the time complexity of the following Java method:
 
 public class Lab6Ex2 {
-
-	public static void main(String[] args) {
+	
 		int foo(int N) {
+			
 			 int result = 0;
 			 for (int i=0; i<N; i++)
 			 result++;
@@ -16,8 +16,8 @@ public class Lab6Ex2 {
 			 result+=j;
 
 			 return result;
-		}
 	}
+}
 	
 	/*
 	 * The first loop is size N will be O(N) and the time complexity of the second
