@@ -1,6 +1,6 @@
 //Christina Sosa
 //Programming Fundamentals - Summer 2021
-//Lab 6
+//Lab 6 - Exercise 1
 
 // Write the simplest Java method that would have 𝑂(𝑁^3) time complexity, where 𝑁 is the single
 //input parameter to the method.
@@ -21,5 +21,6 @@ public class Lab6Ex1 {
 		int n = scan.nextInt(); 
 
 	}
+	
 
 }
