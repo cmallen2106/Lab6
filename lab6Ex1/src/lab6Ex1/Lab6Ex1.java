@@ -19,8 +19,22 @@ public class Lab6Ex1 {
 		
 		System.out.print("Enter a value for n: ");
 		int n = scan.nextInt(); 
+		complexity(n); 
+		
+		scan.close();
 
 	}
-	
+	public static void complexity (int n) {
+		//Creating the triple nested loops to create O(n^3)
+		for (int i = 1; i <= n; i++) {
+			for (int j = 1; j <= n; j++) {
+				for (int k = 1; k <= n; k++) {
+					
+					//prints out O(n^3)
+					System.out.println(" O(n^3) = " + k); 
+				}
+			}
+		}
+	}
 
 }
